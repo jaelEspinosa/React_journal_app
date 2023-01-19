@@ -113,6 +113,7 @@ const onGoogleSignIn = ()=>{
               </Grid>
               <Grid item xs={ 12 } sm={ 6 }>
                 <Button 
+                    sx={{display: {xs: 'none', sm:'flex'} }}
                     disabled = { isAuthenticating }
                     onClick={ onGoogleSignIn }
                     variant = "outlined" 
